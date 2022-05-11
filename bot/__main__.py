@@ -42,7 +42,7 @@ Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         sendMarkup(start_string, context.bot, update, None)
     else:
-        sendMarkup('Not authorized user.', context.bot, update, None)
+        sendMarkup('𝙒𝙝𝙤 𝘼𝙧𝙚 𝙔𝙤𝙪 😒.', context.bot, update, None)
 
 def restart(update, context):
     cmd = update.effective_message.text.split(' ', 1)
